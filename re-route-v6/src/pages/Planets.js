@@ -3,9 +3,9 @@ import { useState } from "react"
 
 export default function Planets() {
   const [items] = useState([
-    { name: ''},
-    { title: 'Ninja Sneakers', price: 34.99 },
-    { title: 'Ninja Tee', price: 12.99 }
+    { id: ''},
+    { people: '', name: ''},
+    { homeworld: ''}
   ])
 
   return (
@@ -13,11 +13,11 @@ export default function Planets() {
       <h3>HomeWorlds</h3>
       <div className="planets">
         {items.map(item => (
-          <div key={item.title}>
+          <div key={item.id}>
                 <img src="https://via.placeholder.com/350x200" alt="people" /> {/* http://localhost:3000/about/planets */}
-            <h4>{item.name}</h4>
-                <p>{item.title}</p>
-                <p>{item.price}</p>
+            <h4>{item.people}</h4>
+                <p>{item.name}</p>
+                <p>{item.homeworld}</p>
           </div>
         ))}
       </div>

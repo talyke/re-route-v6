@@ -11,7 +11,7 @@ export default function PeopleDetails() {
     <div className="content">
       <div className="people">
         <div className="image">
-          <img src="https://via.placeholder.com/520x460" alt="" />
+          <img src="https://swapi.dev/api/people/" alt="" />
         </div>
         <div className="planets">
           <h2>People - {id}</h2>

@@ -5,8 +5,8 @@ import About from './pages/About'
 import People from './pages/People'
 import Planets from './pages/Planets'
 import PeopleDetails from './pages/PeopleDetails'
-//import './getSWAPI.js'
-//import './index.html'
+/*import { getSwapi } from'./getSWAPI.js'*/
+
 
 function App() {
     const [empty] = useState(true)
